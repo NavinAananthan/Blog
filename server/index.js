@@ -7,7 +7,7 @@ const mongoose = require('mongoose')
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect('mongodb+srv://navin:lTfGY2m8pn0nUiXY@blog.ok0582f.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv:url')
 
 
 app.post('/register', (request,response)=>{
